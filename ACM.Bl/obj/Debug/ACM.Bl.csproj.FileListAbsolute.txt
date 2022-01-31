@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\ACM.Bl\bin\Debug\ACM.Bl.dll
+C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\ACM.Bl\bin\Debug\ACM.Bl.pdb
+C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\ACM.Bl\obj\Debug\ACM.Bl.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\ACM.Bl\obj\Debug\ACM.Bl.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\ACM.Bl\obj\Debug\ACM.Bl.dll
+C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\ACM.Bl\obj\Debug\ACM.Bl.pdb
