@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ACM.Bl;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,20 +9,22 @@ namespace ACM.BL
 {
     public class Customer
     {
-        public Customer()
+        public Customer(): this(0)
         {
 
         }
         public Customer(int customerId)
         {
             CustomerId = customerId;
+            AddressList = new List<Address>();
         }
+
         public int CustomerId { get; private set; }
+        public int CustomerType { get; set; }
         public string LastName { get; set; }
         public string FirstName { get; set; }
         public string EmailAddress { get; set; }
-        public string HomeAdress { get; set; } 
-        public string BillingAdress { get; set; }
+        public List<Address> AddressList { get; set; }         
 
         public string FullName
         {
@@ -48,9 +51,7 @@ namespace ACM.BL
             // Code that retrieves the Define's ONE Customer.
 
             return new Customer();
-        }
-
-       
+        }       
 
        /// Validates the Customer Data.
        public bool Validate()
@@ -63,6 +64,6 @@ namespace ACM.BL
 
             return isValid;
         }
-    }
-   
+
+    }   
 }
