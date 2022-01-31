@@ -86,7 +86,7 @@ namespace ACM.BLTest
             var customer = new Customer
             {
                 LastName = "Wick",
-                EmailAdress = "jwick@badass.me"
+                EmailAddress = "jwick@badass.me"
             };
 
             var expected = true;
@@ -103,7 +103,7 @@ namespace ACM.BLTest
             // -- Arrange
             var customer = new Customer
             {
-                EmailAdress = "jwick@badass.me"
+                EmailAddress = "jwick@badass.me"
             };
             var expected = false;
 
