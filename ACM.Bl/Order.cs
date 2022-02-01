@@ -7,7 +7,6 @@ namespace ACM.Bl
     {
         public Order(): this (0)
         {
-
         }
         public Order(int orderId)
         {
@@ -31,5 +30,7 @@ namespace ACM.Bl
 
             return isValid;
         }
-    }
+
+  }
+
 }

@@ -4,7 +4,6 @@
     {
         public OrderItem()
         {
-
         }
         public OrderItem(int orderItemId)
         {
@@ -43,5 +42,6 @@
             return isValid;
 
         }
-    }
+  }
+
 }

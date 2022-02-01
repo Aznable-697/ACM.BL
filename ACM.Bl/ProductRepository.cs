@@ -21,6 +21,10 @@ namespace ACM.Bl
                 product.ProductDescription = "Johns Favorite Gun";
                 product.CurrentPrice = 99.99M;
             }
+            // .NET Class & Interpolation Example
+            Object myObject = new Object();
+            Console.WriteLine($"Object: {myObject.ToString()}");
+            Console.WriteLine($"Product: {product.ToString()}");
             return product;
         }
 

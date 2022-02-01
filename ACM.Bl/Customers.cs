@@ -11,7 +11,6 @@ namespace ACM.BL
     {
         public Customer(): this(0)
         {
-
         }
         public Customer(int customerId)
         {
@@ -63,7 +62,8 @@ namespace ACM.BL
             if (string.IsNullOrWhiteSpace(EmailAddress)) isValid = false;
 
             return isValid;
-        }
+       }
 
     }   
+
 }

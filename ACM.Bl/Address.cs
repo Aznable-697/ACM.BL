@@ -4,7 +4,6 @@
     {
         public Address()
         {
-
         }
         public Address(int addressId)
         {
@@ -30,5 +29,7 @@
 
             return isValid;
         }
-    }
+
+   }
+
 }
