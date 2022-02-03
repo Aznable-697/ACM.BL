@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ACM.BL
 {
-    public class Customer
+    public class Customer : EntityBase
     {
         public Customer(): this(0)
         {
@@ -56,7 +56,7 @@ namespace ACM.BL
         public override string ToString() => FullName;
 
         /// Validates the Customer Data.
-        public bool Validate()
+        public override bool Validate()
         {
             // Code that Validates the Customers DATA. i.e.. FIELDS THAT MUST HAVE AN INPUT
             var isValid = true;

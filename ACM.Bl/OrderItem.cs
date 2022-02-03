@@ -1,6 +1,6 @@
 ﻿namespace ACM.Bl
 {
-  public  class OrderItem
+  public  class OrderItem 
     {
         public OrderItem()
         {

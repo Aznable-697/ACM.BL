@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ACM.Bl
 {
-  public  class Order
+  public  class Order : EntityBase
     {
         public Order(): this (0)
         {
@@ -25,7 +25,7 @@ namespace ACM.Bl
         
 
         /// Validates the Order DATA.
-        public bool Validate()
+        public override bool Validate()
         {
             // Code that Validates the ORDER DATE.
             var isValid = true;

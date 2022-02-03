@@ -68,8 +68,28 @@ namespace ACM.Bl
         /// Saves The Current Address.
         public bool Save(Address address)
         {
-            // Code that Saves the Passed in Address
-            return true;
+            // Override Save Code
+            var success = true;
+
+            if (address.HasChanges)
+            {
+                if (address.IsValid)
+                {
+                    if (address.IsNew)
+                    {
+                        // Call an Insert Stored Procedure
+                    }
+                    else
+                    {
+                        // Call an Update Stored Procedure
+                    }
+                }
+                else
+                {
+                    success = false;
+                }
+            }
+            return success;
         }
     }
 }

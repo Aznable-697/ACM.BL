@@ -1,6 +1,6 @@
 ﻿namespace ACM.Bl
 {
-   public class Address
+   public class Address : EntityBase
     {
         public Address()
         {
@@ -20,7 +20,7 @@
         public string StreetLine2 { get; set; }
 
         //Validates the Address DATA.
-        public bool Validate()
+        public override bool Validate()
         {
             // Code that Validates The POSTAL CODE.
             var isValid = true;

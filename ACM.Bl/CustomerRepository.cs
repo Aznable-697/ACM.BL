@@ -39,8 +39,28 @@ namespace ACM.BL
         /// Saves the Current Customer.
         public bool Save(Customer customer)
         {
-            // Code that Saves the Passed in Customer.
-            return true;
+            // Override Save Code
+            var success = true;
+
+            if (customer.HasChanges)
+            {
+                if (customer.IsValid)
+                {
+                    if (customer.IsNew)
+                    {
+                        // Call an Insert Stored Procedure
+                    }
+                    else
+                    {
+                        // Call an Update Stored Procedure
+                    }
+                }
+                else
+                {
+                    success = false;
+                }
+            }
+            return success;
         }
 
     }

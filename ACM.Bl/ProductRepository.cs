@@ -31,8 +31,28 @@ namespace ACM.Bl
         /// Saves the current Product.
         public bool Save(Product product)
         {
-            // Code that Saves the Passed in Product.
-            return true;
+            // Override Save Code
+            var success = true;
+            
+            if (product.HasChanges)
+            {
+                if (product.IsValid)
+                {
+                    if (product.IsNew)
+                    {
+                        // Call an Insert Stored Procedure
+                    }
+                    else
+                    {
+                        // Call an Update Stored Procedure
+                    }
+                }
+                else
+                {
+                    success = false;
+                }
+            }
+            return success;
         }
 
 
