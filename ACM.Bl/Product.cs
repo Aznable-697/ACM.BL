@@ -1,4 +1,6 @@
-﻿namespace ACM.Bl
+﻿using Acme.Common;
+
+namespace ACM.Bl
 {
    public class Product : EntityBase
     {
@@ -14,8 +16,21 @@
         public decimal? CurrentPrice { get; set; }
         public string ProductDescription { get; set; }
         public int ProductId { get; private set; }
-        public string ProductName { get; set; }
-
+        // public string ProductName { get; set; }
+        private string _productName;
+        public string ProductName
+        {
+            get
+            {
+                var stringHandler = new StringHandler();
+                return stringHandler.InsertSpaces(_productName);
+            }
+            set
+            {
+                _productName = value;
+            }
+        }
+       
         // Adds an Override to the base class using the ToString in Expressions form of the method.
         public override string ToString() => ProductName;
 

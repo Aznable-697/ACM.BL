@@ -4,3 +4,6 @@ C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\ACM.Bl\obj\Debug\ACM.Bl.csproj.Asse
 C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\ACM.Bl\obj\Debug\ACM.Bl.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\ACM.Bl\obj\Debug\ACM.Bl.dll
 C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\ACM.Bl\obj\Debug\ACM.Bl.pdb
+C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\ACM.Bl\bin\Debug\Acme.Common.dll
+C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\ACM.Bl\bin\Debug\Acme.Common.pdb
+C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\ACM.Bl\obj\Debug\ACM.BL.csproj.CopyComplete

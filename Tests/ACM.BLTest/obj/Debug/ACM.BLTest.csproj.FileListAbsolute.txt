@@ -14,3 +14,5 @@ C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\Tests\ACM.BLTest\obj\Debug\ACM.BLTe
 C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.csproj.CopyComplete
 C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.dll
 C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.pdb
+C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\Tests\ACM.BLTest\bin\Debug\Acme.Common.dll
+C:\Users\User\Desktop\Csharp_Projects\ACM.Bl\Tests\ACM.BLTest\bin\Debug\Acme.Common.pdb
