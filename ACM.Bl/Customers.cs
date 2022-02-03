@@ -50,10 +50,13 @@ namespace ACM.BL
             // Code that retrieves the Define's ONE Customer.
 
             return new Customer();
-        }       
+        }
 
-       /// Validates the Customer Data.
-       public bool Validate()
+        // Override
+        public override string ToString() => FullName;
+
+        /// Validates the Customer Data.
+        public bool Validate()
         {
             // Code that Validates the Customers DATA. i.e.. FIELDS THAT MUST HAVE AN INPUT
             var isValid = true;

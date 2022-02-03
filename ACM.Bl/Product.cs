@@ -15,7 +15,9 @@
         public string ProductDescription { get; set; }
         public int ProductId { get; private set; }
         public string ProductName { get; set; }
-       
+
+        // Adds an Override to the base class using the ToString in Expressions form of the method.
+        public override string ToString() => ProductName;
 
         /// Validates the Product DATA.
         public bool Validate()
