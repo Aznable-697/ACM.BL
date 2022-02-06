@@ -52,8 +52,23 @@ namespace ACM.BL
             return new Customer();
         }
 
-        // Override
-        public override string ToString() => FullName;
+        /// <summary>
+        /// Creates a Logging Service. Long form of doing it.
+        //  public string Log()
+        //  {
+        //       var logString = CustomerId + ": " +
+        //           FullName + " " +
+        //           "Email: " + EmailAddress + " " +
+        //           "Status: " + EntityState.ToString();
+        //       return logString;
+        //   }
+        /// <returns></returns>
+        
+        /// Short Form of Logging.
+        public string Log() => $"{CustomerId}: {FullName} Email: {EmailAddress} Status: {EntityState.ToString()}";
+
+    // Override
+    public override string ToString() => FullName;
 
         /// Validates the Customer Data.
         public override bool Validate()
