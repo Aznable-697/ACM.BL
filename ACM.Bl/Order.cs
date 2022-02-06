@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Acme.Common;
+using System;
 using System.Collections.Generic;
 
 namespace ACM.Bl
 {
-  public  class Order : EntityBase
+  public  class Order : EntityBase, ILoggable
     {
         public Order(): this (0)
         {
@@ -19,6 +20,9 @@ namespace ACM.Bl
         public int OrderId { get; private set; }
         public List<OrderItem> OrderItems { get; set; }
         public int ShippingAddressId { get; set; }
+
+        // Logging Method for Order.
+        public string Log() => $"{OrderId}: Date: {this.OrderDate.Value.Date} Status: {this.EntityState.ToString()};";
 
         // public Override
         public override string ToString() => $"{OrderDate.Value.Date} ({OrderId})";

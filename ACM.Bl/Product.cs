@@ -2,7 +2,7 @@
 
 namespace ACM.Bl
 {
-   public class Product : EntityBase
+   public class Product : EntityBase, ILoggable
     {
         public Product()
         {
@@ -30,6 +30,9 @@ namespace ACM.Bl
                 _productName = value;
             }
         }
+
+        // Logging Method for Product.
+        public string Log() => $"{ProductId}: {ProductName} Details: {ProductDescription} Status: {EntityState.ToString()}";
        
         // Adds an Override to the base class using the ToString in Expressions form of the method.
         public override string ToString() => ProductName;

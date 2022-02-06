@@ -1,4 +1,5 @@
 ﻿using ACM.Bl;
+using Acme.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ACM.BL
 {
-    public class Customer : EntityBase
+    public class Customer : EntityBase, ILoggable
     {
         public Customer(): this(0)
         {
@@ -53,7 +54,7 @@ namespace ACM.BL
         }
 
         /// <summary>
-        /// Creates a Logging Service. Long form of doing it.
+        /// Creates a Logging Method for the Interface ILoggable. Long form of doing it.
         //  public string Log()
         //  {
         //       var logString = CustomerId + ": " +
@@ -64,7 +65,7 @@ namespace ACM.BL
         //   }
         /// <returns></returns>
         
-        /// Short Form of Logging.
+        /// Short Form of Logging Method.
         public string Log() => $"{CustomerId}: {FullName} Email: {EmailAddress} Status: {EntityState.ToString()}";
 
     // Override
